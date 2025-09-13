@@ -50,7 +50,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #74787C;
-    background-color: #ffffff; 
+    background-color: #FFFFFF; 
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
@@ -8381,7 +8381,7 @@ fieldset:disabled .btn {
 }
 
 .bg-white {
-    background-color:  #ffffff !important
+    background-color:  #FFFFFF !important
 }
 
 .bg-transparent {
