@@ -103,7 +103,11 @@ h6,
 /* Navbar custom styling */
 .navbar {
     background: #f8f9fa; /* light background */
-    border-radius: 50px;
+        
+border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-start-end-radius: 0px;
+    border-top-left-radius: 0px;
     padding: 10px 20px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
@@ -138,36 +142,6 @@ h6,
     padding: 10px 25px;
 }
 
-/* Default navbar */
-.navbar {
-    background: #f8f9fa; 
-    border-radius: 50px;
-    padding: 12px 25px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    transition: background 0.4s ease, box-shadow 0.4s ease;
-}
-
-/* Scrolled navbar */
-.navbar.scrolled {
-    background: #ffffff !important;
-    box-shadow: 0 6px 16px rgba(0,0,0,0.2);
-}
-
-/* Change nav link colors when scrolled */
-.navbar.scrolled .nav-link {
-    color: #fff !important;
-}
-.navbar.scrolled .nav-link:hover,
-.navbar.scrolled .nav-link.active {
-    background: #fff;
-    color: #0239b0 !important;
-}
-
-/* Brand image adjustment */
-.navbar-brand img {
-    height: 55px;
-    transition: 0.3s;
-}
 
 
 
