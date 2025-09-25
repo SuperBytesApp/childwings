@@ -42,16 +42,19 @@
 
     // Header carousel
     $(".header-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1500,
+         autoplay: true,
+        autoplayTimeout: 3000,  /* Time between slides (2s) */
+        autoplaySpeed: 1500,     /* Speed of slide transition (0.8s) */
+        smartSpeed: 1500,        /* Smooth animation speed */
         items: 1,
-        dots: true,
         loop: true,
-        nav : true,
+        dots: true,
+        nav: true,
         navText : [
             '<i class="bi bi-chevron-left"></i>',
             '<i class="bi bi-chevron-right"></i>'
         ]
+
     });
 
 
@@ -76,6 +79,7 @@
             }
         }
     });
+
     
 })(jQuery);
 
