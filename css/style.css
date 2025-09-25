@@ -83,8 +83,9 @@ h4,
 .display-4,
 .display-5,
 .display-6 {
-    font-family: 'Lobster Two', cursive;
-    font-weight: 700;
+   font-family: 'Poppins', sans-serif;
+font-weight: 700;
+
 }
 
 h5,
@@ -551,4 +552,20 @@ border-bottom-left-radius: 20px;
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+
+.classes-item a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 70px; /* Adjust this value based on the tallest title */
+}
+
+.classes-item {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
